@@ -148,6 +148,10 @@ body {
   border-radius: 3px;
 }
 
+.text-jumbotron p {
+  opacity: 0.5;
+}
+
 .img-jumbotron {
   background-color: #ccc;
   border-radius: 50%;
@@ -159,6 +163,12 @@ body {
 .img-jumbotron img {
   width: 250px;
   border-radius: 50%;
+}
+
+.download-cv {
+  color: #ffffff;
+  padding: 0 5px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
