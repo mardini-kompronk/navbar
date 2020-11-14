@@ -30,7 +30,8 @@ const scrollNav = (value) => {
 // loading screen
 
 const container = document.querySelector(".container");
-
+const screenLoading = document.getElementById("loadscreen");
 window.addEventListener("load", function () {
   container.style.display = "block";
+  screenLoading.style.display = "none";
 });
