@@ -17,3 +17,20 @@ menu.addEventListener("click", function () {
 close.addEventListener("click", function () {
   navClose();
 });
+
+// scroll
+
+const scrollNav = (value) => {
+  let element = document.querySelector(`.${value}`);
+  element.scrollIntoView({
+    behavior: "smooth",
+  });
+};
+
+// loading screen
+
+const container = document.querySelector(".container");
+
+window.addEventListener("load", function () {
+  container.style.display = "block";
+});
